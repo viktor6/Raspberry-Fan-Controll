@@ -10,7 +10,7 @@ Open your crontab -e
 
 Add this line 
 
-> 5 * * * * sudo python /home/pi/fan.py
+> 5 * * * * sudo python /home/pi/fanControll.py
 
 Reboot and the fan will now turn on if the temperature gets above 45C. To change the temperature open the script in leafpad, and change maxTemp to the temperature you want the fan to turn on at in Celsius.
 
